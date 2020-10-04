@@ -10,6 +10,10 @@ https://clips.twitch.tv/HorribleWimpyOrcaPraiseIt
 
 
 
+## For OBS
+To make it work natively in OBS as Browser Source, I added ` --enable-media-stream ` flag to the OBS exe. 
+Only tested it on Win 10, OBS Studio 26.0.0 (64 bit)
+
 ## Discussion, Support and Issues
 For general support and discussion of this project, please join the Discord server: [Discord Invite Link](https://discord.gg/B2cERQ5)
 
