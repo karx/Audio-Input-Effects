@@ -1,7 +1,20 @@
-# Live Audio Input effects
+# Stream Audio Viz
+Forked from https://github.com/cwilso/Audio-Input-Effects, with a few changes to make it work for my stream setup.
 
-I whipped this app up to test live audio input, letting the user select a few common tunable effects and see (and hear) the effects.  It's also a good demo of how to build chorus and flanging effects in WebAudio.
+Check it out Orignal demo [here](https://webaudiodemos.appspot.com/input/), feel free to fork, submit pull requests, etc.
 
-Check it out [here](https://webaudiodemos.appspot.com/input/), feel free to fork, submit pull requests, etc.
 
--Chris
+## Stream Overlay Demo
+https://clips.twitch.tv/HorribleWimpyOrcaPraiseIt
+
+
+
+## Discussion, Support and Issues
+For general support and discussion of this project, please join the Discord server: [Discord Invite Link](https://discord.gg/B2cERQ5)
+
+[![Discord Server](https://discordapp.com/api/guilds/552881714196774953/widget.png?style=banner2)](https://discord.gg/B2cERQ5)
+
+To check known bugs and see planned changes and features for this project, please see the GitHub issues.
+
+Found a bug we don't already have an issue for? Please report it in a new GitHub issue with as much detail as you can!
+

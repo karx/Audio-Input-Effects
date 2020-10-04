@@ -141,8 +141,8 @@ function gotStream(stream) {
     audioInput.connect(effectInput);
     dryGain.connect(outputMix);
     wetGain.connect(outputMix);
-    outputMix.connect( audioContext.destination);
-    outputMix.connect(analyser2);
+    // outputMix.connect( audioContext.destination);    // Commented this as I dont want Any OUTPUT
+    // outputMix.connect(analyser2);
     crossfade(1.0);
     changeEffect();
     cancelAnalyserUpdates();
@@ -246,7 +246,7 @@ function keyPress(ev) {
 
 window.addEventListener('load', initAudio );
 
-window.addEventListener('keydown', keyPress );
+// window.addEventListener('keydown', keyPress );
 
 function crossfade(value) {
   // equal-power crossfade

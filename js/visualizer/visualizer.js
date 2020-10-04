@@ -68,7 +68,7 @@ AnalyserView = function(canvasElementID) {
     this.sonogram3DShader = 0;
 
     // Background color
-    this.backgroundColor = [0.1, 0.1, 0.1, 1.0];
+    this.backgroundColor = [0, 0, 0, 0.0];
 
     // Foreground color
     this.foregroundColor = [0.0 / 255.0,
@@ -117,8 +117,8 @@ AnalyserView.prototype.initGL = function() {
     var cameraController = new CameraController(canvas);
     this.cameraController = cameraController;
     
-    cameraController.xRot = -30; //-55;
-    cameraController.yRot = 0;
+    cameraController.xRot = -22; //-55;
+    cameraController.yRot = -60;
     gl.clearColor(backgroundColor[0], backgroundColor[1], backgroundColor[2], backgroundColor[3]);
     gl.enable(gl.DEPTH_TEST);
 

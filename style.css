@@ -1,0 +1,10 @@
+/* body { font: 14pt Arial, sans-serif; background: #333; color: gray; } */
+	select { font: 14pt Arial, sans-serif;  display: none;}
+	div#controls div { display:none; border: 1px solid darkgray; border-radius: 5px; padding: 10px; width: 728px; display: none;}
+	div#controls div.display { display: none;}
+	#controls { padding-top: 24px; display: none;}
+	#effectMix { padding-top: 12px; display: none;}
+    /* #arranger { width:750px; margin: 25px auto} */
+    #view2 {
+        display: none;
+    }

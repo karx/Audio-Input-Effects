@@ -25,18 +25,10 @@
 	<script src="js/visualizer/visualizer.js"></script>
 	<script src="js/visualizer/shader.js"></script>
 
-	<style>
-	body { font: 14pt Arial, sans-serif; background: #333; color: gray; }
-	select { font: 14pt Arial, sans-serif; }
-	div#controls div { display:none; border: 1px solid darkgray; border-radius: 5px; padding: 10px; width: 728px;}
-	div#controls div.display { display: block; }
-	#controls { padding-top: 24px;}
-	#effectMix { padding-top: 12px;}
-	#arranger { width:750px; margin: 25px auto}
-	</style>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div>Input:
+	<div>
 		<select id="audioinput" onchange="changeInput(this.selectedIndex);">
 			<option>default (selection not supported)</option>
 		</select>
@@ -46,7 +38,7 @@
 	</div>
 
 	<div id="arranger">
-	<canvas id="view1" width="750" height="200"></canvas><br>
+	<canvas id="view1" width="800" height="400"></canvas><br>
 	<canvas id="view2" width="750" height="200"></canvas>
 	<div>
 		<input type="radio" name="radioSet" value="data" 
@@ -193,25 +185,6 @@ onInput="crossfade( event.target.value );">
 		Noise floor: <input id="apolloFloor" type="range" min="0.0" max="0.2" step="0.001" value="0.01" style="height: 20px; width: 200px;" onInput="if (apolloGate)    apolloGate.curve = generateNoiseFloorCurve(event.target.value);">
 	</div>
 
-</div>
-<!--
-      <button onclick="this.innerText = toggleSample();">play</button>
-  -->
-</div>
-  <a href="https://github.com/cwilso/Audio-Input-Effects" style="position: absolute; z-index:2; top: 0; right: 0; border: 0;"><img src="img/forkme.png" alt="Fork me on GitHub"></a>
 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-35593052-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 </body>
 </html>
