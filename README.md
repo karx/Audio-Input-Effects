@@ -14,7 +14,13 @@ https://clips.twitch.tv/HorribleWimpyOrcaPraiseIt
 To make it work natively in OBS as Browser Source, I added ` --enable-media-stream ` flag to the OBS exe. 
 Only tested it on Win 10, OBS Studio 26.0.0 (64 bit)
 
-## Discussion, Support and Issues
+* Add **Browser Source** : https://audioviz.netlify.app/
+* Add Filter - **Chroma Key**. 
+[image](https://user-images.githubusercontent.com/7826138/120613340-c88e8a80-c473-11eb-8f7d-ab1eb7217c19.png)
+
+
+## Discussion, Support and Issues!
+
 For general support and discussion of this project, please join the Discord server: [Discord Invite Link](https://discord.gg/B2cERQ5)
 
 [![Discord Server](https://discordapp.com/api/guilds/552881714196774953/widget.png?style=banner2)](https://discord.gg/B2cERQ5)
